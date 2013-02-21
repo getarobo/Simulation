@@ -1,0 +1,1912 @@
+T3_cloth
+v7
+r0
+t326912099.446240
+cCheck dependencies
+cProcessInfoPlistFile /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCopyStringsFile /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Debug/3_cloth.app/Contents/Resources/08.asf dist/data/08.asf
+cCpResource build/Debug/3_cloth.app/Contents/Resources/08.asf data/08.asf
+cCpResource build/Debug/3_cloth.app/Contents/Resources/08_04.amc dist/data/08_04.amc
+cCpResource build/Debug/3_cloth.app/Contents/Resources/08_04.amc data/08_04.amc
+cCpResource build/Debug/3_cloth.app/Contents/Resources/gentium.txf dist/gentium.txf
+cCpResource build/Debug/3_cloth.app/Contents/Resources/gentium.txf Graphics/fonts/gentium.txf
+cCpResource build/Debug/3_cloth.app/Contents/Resources/color_vert.glsl dist/shaders/color_vert.glsl
+cCpResource build/Debug/3_cloth.app/Contents/Resources/extrude_vert.glsl dist/shaders/extrude_vert.glsl
+cCpResource build/Debug/3_cloth.app/Contents/Resources/noextrude_vert.glsl dist/shaders/noextrude_vert.glsl
+cCpResource build/Debug/3_cloth.app/Contents/Resources/skin_extrude_vert.glsl dist/shaders/skin_extrude_vert.glsl
+cCpResource build/Debug/3_cloth.app/Contents/Resources/skin_vert.glsl dist/shaders/skin_vert.glsl
+cCpResource build/Debug/3_cloth.app/Contents/Resources/gen_extension_loader.pl Graphics/gen_extension_loader.pl
+cCpResource build/Debug/3_cloth.app/Contents/Resources/ppm2avi.pl Graphics/ppm2avi.pl
+cCpResource build/Debug/3_cloth.app/Contents/Resources/amc_to_bmc.pl Library/amc_to_bmc.pl
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SDLMain.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/BrowseMode.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/BrowseMode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/browser.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/browser.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Mode.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/Mode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Cache.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Cache.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Font.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/FrameDumper.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/FrameDumper.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/GLExtensions.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLExtensions.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/GLSLShader.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLSLShader.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Graphics.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Graphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/ShadowStencil.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/ShadowStencil.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/texfont.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/texfont.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Character.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Character.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Cloth.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Cloth.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/control_utils.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/control_utils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Draw.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Draw.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Force.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Force.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Particle.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Particle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/pose_utils.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/pose_utils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Skin.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Skin.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/skin_utils.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/skin_utils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SpringForce.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SpringForce.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SVGDraw.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SVGDraw.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Library.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/matrix.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/matrix.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/nrutil.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/pythag.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/pythag.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Reader.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Reader.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/ReadSkeleton.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/ReadSkeleton.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Skeleton.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Skeleton.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/svdcmp.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Test.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Test.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Vfile.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Vfile.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Density.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Density.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Velocity.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velocity.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Fluidflow.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Fluidflow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Den3.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Flo3.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Flo3.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Velo3.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velo3.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cPBXCp build/Debug/3_cloth.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL.h
+c00000000477888350000000000000C3D
+t1199081525
+s3133
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL_opengl.h
+c00000000477888350000000000052168
+t1199081525
+s336232
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL_thread.h
+c00000000477888350000000000001154
+t1199081525
+s4436
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004BBD2CC60000000000001533
+t1270688966
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
+c000000004BBD2CE90000000000002C18
+t1270689001
+s11288
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/dirent.h
+c000000004BBD2CE900000000000016D3
+t1270689001
+s5843
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004BBD2CE900000000000003EA
+t1270689001
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/poll.h
+c000000004BBD2CE900000000000003EC
+t1270689001
+s1004
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/param.h
+c000000004C23994700000000000027BE
+t1277401415
+s10174
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004C2399480000000000004A1D
+t1277401416
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004C2399480000000000002905
+t1277401416
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004A11EB240000000000003197
+t1242688292
+s12695
+
+N/Library/Frameworks/SDL.framework
+c000000004778883500000000000000CC
+t1199081525
+s204
+
+N/Library/Frameworks/SDL.framework/SDL
+c000000004778883500000000000E23A0
+t1199081525
+s926624
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004D7713DA0000000000043330
+t1299649498
+s275248
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/../../../../../../../../../../System/Library/Frameworks/GLUT.framework/GLUT
+c000000004A12475500000000001A2920
+t1242711893
+s1714464
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/BrowseMode.cpp
+c000000004CD897B20000000000001842
+t1289263026
+s6210
+i"BrowseMode.hpp"
+i<Draw.hpp>
+i<Character/pose_utils.hpp>
+i<Library/Library.hpp>
+i<Character/skin_utils.hpp>
+i<Graphics/Graphics.hpp>
+i<Graphics/Font.hpp>
+i<Vector/VectorGL.hpp>
+i<string>
+i<sstream>
+i<iostream>
+i<fstream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/BrowseMode.hpp
+c000000004B142BB8000000000000035C
+t1259613112
+s860
+i"Mode.hpp"
+i<Character/Character.hpp>
+i<Character/Skin.hpp>
+i<Character/Density.hpp>
+i<Character/Cloth.hpp>
+i<Character/Fluidflow.hpp>
+i<Character/Flo3.hpp>
+i<vector>
+i<deque>
+i<utility>
+i<string>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/Mode.cpp
+c000000004ABD829A00000000000004B9
+t1253933722
+s1209
+i"Mode.hpp"
+i<Graphics/FrameDumper.hpp>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/Mode.hpp
+c000000004A983F4200000000000003F0
+t1251491650
+s1008
+i<SDL.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/browser.cpp
+c000000004ABD82B400000000000004A4
+t1253933748
+s1188
+i<Library/matrix.hpp>
+i"BrowseMode.hpp"
+i<Library/Library.hpp>
+i<Graphics/Graphics.hpp>
+i<Graphics/FrameDumper.hpp>
+i<SDL.h>
+i<SDL_opengl.h>
+i<iostream>
+i<fstream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Character.cpp
+c0000000045C8F4BE000000000000087F
+t1170797758
+s2175
+i"Character.hpp"
+i<Library/Skeleton.hpp>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Character.hpp
+c0000000045C8F4BE0000000000000772
+t1170797758
+s1906
+i<Vector/Vector.hpp>
+i<Vector/Quat.hpp>
+i<vector>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Cloth.cpp
+c000000004CB269B70000000000001522
+t1286760887
+s5410
+i"Cloth.hpp"
+i"SpringForce.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Cloth.hpp
+c000000004ADFB5520000000000000146
+t1256174930
+s326
+i"Particle.hpp"
+i"Force.hpp"
+i"SpringForce.hpp"
+i<vector>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp
+c000000004DCC10CD000000000000119D
+t1305219277
+s4509
+i"Den3.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.hpp
+c000000004C33D00C00000000000001E7
+t1278464012
+s487
+i<Vector/Vector.hpp>
+i<Graphics/Graphics.hpp>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Density.cpp
+c000000004B134A61000000000000070B
+t1259555425
+s1803
+i"Density.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Density.hpp
+c000000004B13486700000000000001E8
+t1259554919
+s488
+i<Vector/Vector.hpp>
+i<Graphics/Graphics.hpp>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Draw.cpp
+c000000004676E9D7000000000000134E
+t1182198231
+s4942
+i"Draw.hpp"
+i<Library/Skeleton.hpp>
+i<Graphics/Graphics.hpp>
+i<Graphics/Font.hpp>
+i<Vector/VectorGL.hpp>
+i<Vector/QuatGL.hpp>
+i<iostream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Draw.hpp
+c000000004676E9D700000000000001CE
+t1182198231
+s462
+i<string>
+i"Character.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Flo3.cpp
+c000000004D7A96DA0000000000001DB3
+t1299879642
+s7603
+i"Flo3.hpp"
+i"Den3.hpp"
+i"Velo3.hpp"
+i<time.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Flo3.hpp
+c000000004C33CAEB00000000000003A8
+t1278462699
+s936
+i<vector>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Fluidflow.cpp
+c000000004B14F3E1000000000000148B
+t1259664353
+s5259
+i"Fluidflow.hpp"
+i"Density.hpp"
+i"Velocity.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Fluidflow.hpp
+c000000004B134F660000000000000382
+t1259556710
+s898
+i<vector>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Force.cpp
+c000000004ADE8758000000000000013A
+t1256097624
+s314
+i"Force.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Force.hpp
+c000000004D7A9127000000000000015F
+t1299878183
+s351
+i<Vector/Vector.hpp>
+i<Graphics/Graphics.hpp>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Particle.cpp
+c000000004ADF6D3400000000000004F1
+t1256156468
+s1265
+i"Particle.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Particle.hpp
+c000000004ADF6A6200000000000001B3
+t1256155746
+s435
+i<Vector/Vector.hpp>
+i<Graphics/Graphics.hpp>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SVGDraw.cpp
+c0000000046A3B5FB0000000000002B0B
+t1185134075
+s11019
+i"SVGDraw.hpp"
+i<Graphics/Graphics.hpp>
+i<Vector/Vector.hpp>
+i<Vector/VectorGL.hpp>
+i<Vector/Quat.hpp>
+i<Library/Skeleton.hpp>
+i<algorithm>
+i<vector>
+i<sstream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SVGDraw.hpp
+c00000000469E791B00000000000001DA
+t1184790811
+s474
+i"Character.hpp"
+i<string>
+i<iostream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Skin.cpp
+c00000000469A9961000000000000638A
+t1184536929
+s25482
+i"Skin.hpp"
+i<Graphics/GLExtensions.hpp>
+i<Graphics/GLSLShader.hpp>
+i<Vector/QuatGL.hpp>
+i<iostream>
+i<sstream>
+i<map>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Skin.hpp
+c00000000469A99610000000000000C96
+t1184536929
+s3222
+i"Character.hpp"
+i<Library/Skeleton.hpp>
+i<Graphics/Graphics.hpp>
+i<Graphics/GLSLShader.hpp>
+i<Vector/Vector.hpp>
+i<vector>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SpringForce.cpp
+c000000004CA1FF5A00000000000008ED
+t1285685082
+s2285
+i"SpringForce.hpp"
+i<math.h>
+i<stdio.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SpringForce.hpp
+c000000004ADF77C30000000000000223
+t1256159171
+s547
+i"Particle.hpp"
+i"Force.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velo3.cpp
+c000000004B14890F00000000000008C1
+t1259637007
+s2241
+i"Velo3.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velo3.hpp
+c000000004B141CBB00000000000001E2
+t1259609275
+s482
+i<Vector/Vector.hpp>
+i<Graphics/Graphics.hpp>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velocity.cpp
+c000000004B134BAD00000000000006DC
+t1259555757
+s1756
+i"Velocity.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velocity.hpp
+c000000004B134BB100000000000001E4
+t1259555761
+s484
+i<Vector/Vector.hpp>
+i<Graphics/Graphics.hpp>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/control_utils.cpp
+c000000004557EF0400000000000003C7
+t1163390724
+s967
+i"control_utils.hpp"
+i<Library/Library.hpp>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/control_utils.hpp
+c000000004557EF040000000000000162
+t1163390724
+s354
+i"Character.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/pose_utils.cpp
+c00000000452832EF0000000000000697
+t1160262383
+s1687
+i"pose_utils.hpp"
+i<Library/Library.hpp>
+i<iostream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/pose_utils.hpp
+c000000004557EF0400000000000001A5
+t1163390724
+s421
+i"Character.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/skin_utils.cpp
+c0000000046239C7800000000000015AF
+t1176738936
+s5551
+i"skin_utils.hpp"
+i<iostream>
+i<fstream>
+i<sstream>
+i<vector>
+i<map>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/skin_utils.hpp
+c0000000046239C780000000000000121
+t1176738936
+s289
+i"Skin.hpp"
+i<string>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/English.lproj/InfoPlist.strings
+c000000004ADE7166000000000000021C
+t1256092006
+s540
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Cache.cpp
+c0000000045F89F69000000000000061D
+t1173921641
+s1565
+i"Cache.hpp"
+i<iostream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Cache.hpp
+c000000004709762A0000000000000737
+t1191802410
+s1847
+i<assert.h>
+i<string>
+i<map>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp
+c00000000455E9ABC00000000000007C9
+t1163827900
+s1993
+i"Font.hpp"
+i"Graphics.hpp"
+i"texfont.h"
+i<iostream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.hpp
+c000000004539AF1C00000000000002D4
+t1161408284
+s724
+i<Vector/Vector.hpp>
+i"Cache.hpp"
+i<string>
+i"Graphics.hpp"
+i"texfont.h"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/FrameDumper.cpp
+c0000000046F9540B000000000000178A
+t1190745099
+s6026
+i"FrameDumper.hpp"
+i<sys/types.h>
+i<sys/stat.h>
+i<fcntl.h>
+i<poll.h>
+i<Graphics/Graphics.hpp>
+i<SDL.h>
+i<SDL_thread.h>
+i<cstdlib>
+i<sstream>
+i<iostream>
+i<assert.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/FrameDumper.hpp
+c00000000461BE54D0000000000000340
+t1176233293
+s832
+i<string>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLExtensions.cpp
+c0000000045C7FE28000000000005B34C
+t1170734632
+s373580
+i"GLExtensions.hpp"
+i<iostream>
+i<assert.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLExtensions.hpp
+c00000000456225760000000000028272
+t1164060022
+s164466
+i<Graphics/Graphics.hpp>
+i"glext.h"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLSLShader.cpp
+c000000004630002D00000000000018B9
+t1177550893
+s6329
+i"GLSLShader.hpp"
+i<iostream>
+i<fstream>
+i<sstream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLSLShader.hpp
+c00000000463CE23A0000000000000652
+t1178395194
+s1618
+i"GLExtensions.hpp"
+i"Cache.hpp"
+i<string>
+i<vector>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Graphics.cpp
+c00000000474B62BC0000000000000A3E
+t1196122812
+s2622
+i"Graphics.hpp"
+i<iostream>
+i<list>
+i<utility>
+i<assert.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Graphics.hpp
+c00000000474B62BC00000000000004FF
+t1196122812
+s1279
+i<SDL.h>
+i<SDL_opengl.h>
+i<string>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/ShadowStencil.cpp
+c000000004ADE726900000000000004DA
+t1256092265
+s1242
+i"ShadowStencil.hpp"
+i"Graphics/Graphics.hpp"
+i<Graphics/GLExtensions.hpp>
+i<assert.h>
+i<iostream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/ShadowStencil.hpp
+c0000000046F346530000000000000121
+t1190348371
+s289
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/fonts/gentium.txf
+c00000000452548A90000000000010494
+t1160071337
+s66708
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/gen_extension_loader.pl
+c0000000045C7FE2800000000000014F9
+t1170734632
+s5369
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/glext.h
+c000000004558F0FF00000000000519B8
+t1163456767
+s334264
+i<windows.h>
+i<stddef.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/ppm2avi.pl
+c00000000461D19BA000000000000073A
+t1176312250
+s1850
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/texfont.c
+c00000000467B3D6C0000000000003F22
+t1182481772
+s16162
+i<assert.h>
+i<ctype.h>
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<SDL_opengl.h>
+i"texfont.h"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/texfont.h
+c00000000448CE3E60000000000000738
+t1150084070
+s1848
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp
+c000000004718F14F0000000000003A05
+t1192816975
+s14853
+i"Library.hpp"
+i"ReadSkeleton.hpp"
+i<Character/pose_utils.hpp>
+i<Vector/Misc.hpp>
+i<list>
+i<fstream>
+i<vector>
+i<deque>
+i<algorithm>
+i<io.h>
+i<dirent.h>
+i<errno.h>
+i<sys/stat.h>
+i<sys/types.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.hpp
+c0000000046A3F5FA0000000000000F46
+t1185150458
+s3910
+i"Skeleton.hpp"
+i<Character/Character.hpp>
+i<string>
+i<set>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/ReadSkeleton.cpp
+c0000000046A3F5FA0000000000006678
+t1185150458
+s26232
+i<iostream>
+i<fstream>
+i<set>
+i<cctype>
+i<algorithm>
+i<assert.h>
+i<arpa/inet.h>
+i"ReadSkeleton.hpp"
+i"Reader.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/ReadSkeleton.hpp
+c00000000466D5CE900000000000004DC
+t1181572329
+s1244
+i<string>
+i<vector>
+i<Character/Character.hpp>
+i"Skeleton.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Reader.cpp
+c00000000451183C60000000000000855
+t1158775750
+s2133
+i"Reader.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Reader.hpp
+c0000000045F89F290000000000002645
+t1173921577
+s9797
+i<deque>
+i<iostream>
+i<map>
+i<string>
+i<utility>
+i<set>
+i<vector>
+i<sstream>
+i<assert.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Skeleton.cpp
+c0000000046829EC20000000000003DDF
+t1182965442
+s15839
+i"Skeleton.hpp"
+i<assert.h>
+i<iostream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Skeleton.hpp
+c00000000460DB94F000000000000103C
+t1175304527
+s4156
+i<Character/Character.hpp>
+i<Vector/Vector.hpp>
+i<Vector/Quat.hpp>
+i<iostream>
+i<string>
+i<vector>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Test.cpp
+c000000004AAA4C8C00000000000000DA
+t1252674700
+s218
+i"Test.hpp"
+i<Character/Character.hpp>
+i<Library/Library.hpp>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Test.hpp
+c000000004AAA44CE0000000000000066
+t1252672718
+s102
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Test.o
+c000000004AAA4C960000000000010820
+t1252674710
+s67616
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Vfile.cpp
+c0000000046253AEB000000000000138B
+t1176845035
+s5003
+i"Vfile.hpp"
+i<assert.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Vfile.hpp
+c0000000045FD860700000000000005B2
+t1174242823
+s1458
+i<vector>
+i<fstream>
+i<iostream>
+i<string>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/amc_to_bmc.pl
+c000000004619CC950000000000000FF8
+t1176095893
+s4088
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/matrix.cpp
+c000000004AADA5D40000000000001070
+t1252894164
+s4208
+i<iostream>
+i"matrix.hpp"
+i"svdcmp.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/matrix.hpp
+c0000000045C21FB80000000000000393
+t1170350008
+s915
+i<stdlib.h>
+i<math.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp
+c0000000045C21FC200000000000020F6
+t1170350018
+s8438
+i<stdio.h>
+i<stddef.h>
+i<stdlib.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.hpp
+c000000004AAE3DE10000000000000EC8
+t1252933089
+s3784
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/pythag.cpp
+c000000004AAB13FC0000000000000119
+t1252725756
+s281
+i<math.h>
+i"nrutil.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp
+c000000004AAB14330000000000000E0E
+t1252725811
+s3598
+i"svdcmp.hpp"
+i<math.h>
+i"nrutil.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.hpp
+c0000000045C21FD0000000000000003F
+t1170350032
+s63
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/SDLMain.h
+c000000004ADE71660000000000000133
+t1256092006
+s307
+i<Cocoa/Cocoa.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/SDLMain.m
+c000000004ADE71660000000000002BCF
+t1256092006
+s11215
+i"SDL.h"
+i"SDLMain.h"
+i<sys/param.h>
+i<unistd.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Vector
+c000000004D8018F10000000000000176
+t1300240625
+s374
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Vector/Misc.hpp
+c0000000045DB450A000000000000015D
+t1171997962
+s349
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Vector/Quat.hpp
+c00000000466358400000000000000F97
+t1180915776
+s3991
+i"Vector.hpp"
+i<iostream>
+i<assert.h>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Vector/QuatGL.hpp
+c00000000455E9ABC0000000000000359
+t1163827900
+s857
+i"Quat.hpp"
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Vector/Vector.hpp
+c000000004ADE73AA0000000000002F55
+t1256092586
+s12117
+i<cmath>
+i<iostream>
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/Vector/VectorGL.hpp
+c000000004ADE6EEE0000000000000A86
+t1256091374
+s2694
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/3_cloth.LinkFileList
+c000000004DCC10CE000000000000122F
+t1305219278
+s4655
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/BrowseMode.o
+t1305219285
+s286452
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Cache.o
+t1305219286
+s171124
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Character.o
+t1305219290
+s202564
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Cloth.o
+t1305219290
+s229388
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Den3.o
+t2
+s0
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Density.o
+t1305219298
+s77760
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Draw.o
+t1305219291
+s174996
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Flo3.o
+t1305219299
+s91620
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Fluidflow.o
+t1305219298
+s87256
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Font.o
+t1305219286
+s84924
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Force.o
+t1305219291
+s74908
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/FrameDumper.o
+t1305219287
+s86364
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/GLExtensions.o
+t1305219289
+s1597480
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/GLSLShader.o
+t1305219289
+s302968
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Graphics.o
+t1305219289
+s112188
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Library.o
+t1305219295
+s854152
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Mode.o
+t1305219286
+s26444
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Particle.o
+t1305219291
+s77572
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/ReadSkeleton.o
+t1305219297
+s1610000
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Reader.o
+t1305219295
+s366860
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SDLMain.o
+t1305219288
+s37580
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SVGDraw.o
+t1305219294
+s334796
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/ShadowStencil.o
+t1305219290
+s82036
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Skeleton.o
+t1305219296
+s501804
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Skin.o
+t1305219293
+s748096
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SpringForce.o
+t1305219293
+s82572
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Test.o
+t1305219296
+s71432
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Velo3.o
+t1305219299
+s77496
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Velocity.o
+t1305219298
+s76960
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Vfile.o
+t1305219297
+s254436
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/browser.o
+t1305219285
+s180404
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/control_utils.o
+t1305219291
+s140488
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/matrix.o
+t1305219294
+s76964
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/nrutil.o
+t1305219294
+s16364
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/pose_utils.o
+t1305219292
+s226244
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/pythag.o
+t1305219294
+s2720
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/skin_utils.o
+t1305219293
+s410244
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/svdcmp.o
+t1305219296
+s9652
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/texfont.o
+t1305219289
+s20952
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app
+t2
+s0
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Frameworks/SDL.framework
+t1305219299
+s204
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Info.plist
+t1305219278
+s768
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/MacOS/3_cloth
+t2
+s0
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/PkgInfo
+t1305219278
+s8
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/08.asf
+t1305219279
+s7265
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/08_04.amc
+t1305219279
+s387861
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1305219279
+s540
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/amc_to_bmc.pl
+t1305219279
+s4088
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/color_vert.glsl
+t1305219279
+s215
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/extrude_vert.glsl
+t1305219279
+s362
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/gen_extension_loader.pl
+t1305219279
+s5369
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/gentium.txf
+t1305219279
+s66708
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/noextrude_vert.glsl
+t1305219279
+s386
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/ppm2avi.pl
+t1305219279
+s1850
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/skin_extrude_vert.glsl
+t1305219279
+s1192
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/skin_vert.glsl
+t1305219279
+s1211
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/data/08.asf
+c000000004AC674560000000000001C61
+t1254519894
+s7265
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/data/08_04.amc
+c000000004AC6745F000000000005EB15
+t1254519903
+s387861
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/data/08.asf
+c000000004A9C2EB50000000000001C61
+t1251749557
+s7265
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/data/08_04.amc
+c000000004A9C2EAB000000000005EB15
+t1251749547
+s387861
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/gentium.txf
+c000000004A9564B70000000000010494
+t1251304631
+s66708
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/color_vert.glsl
+c0000000046F45C1A00000000000000D7
+t1190419482
+s215
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/extrude_vert.glsl
+c0000000046F45C1A000000000000016A
+t1190419482
+s362
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/noextrude_vert.glsl
+c0000000046F45C1A0000000000000182
+t1190419482
+s386
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/skin_extrude_vert.glsl
+c0000000046F45C1A00000000000004A8
+t1190419482
+s1192
+
+N/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/skin_vert.glsl
+c0000000046F45C1A00000000000004BB
+t1190419482
+s1211
+
+NInfo.plist
+c000000004ADE7166000000000000034C
+t1256092006
+s844
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326912077#326912078#0(941"[WARN]Warning: Multiple build commands for output file /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/gentium.txf[WARN]Warning: Multiple build commands for output file /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/08.asf[WARN]Warning: Multiple build commands for output file /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/08_04.amc[WARN]warning: no rule to process file '$(PROJECT_DIR)/Browser/Jamfile' of type sourcecode.jam for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Graphics/Jamfile' of type sourcecode.jam for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Character/Jamfile' of type sourcecode.jam for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Library/Jamfile' of type sourcecode.jam for architecture i3867(22@152"Warning: Multiple build commands for output file /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/gentium.txf326912078#18446744073709551615#0#0(1@0"0(22@147"Warning: Multiple build commands for output file /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/08.asf326912078#18446744073709551615#0#0(1@0"0(22@150"Warning: Multiple build commands for output file /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/08_04.amc326912078#18446744073709551615#0#0(1@0"0(22@110"warning: no rule to process file '$(PROJECT_DIR)/Browser/Jamfile' of type sourcecode.jam for architecture i386326912078#18446744073709551615#0#0(1@0"0(22@111"warning: no rule to process file '$(PROJECT_DIR)/Graphics/Jamfile' of type sourcecode.jam for architecture i386326912078#18446744073709551615#0#0(1@0"0(22@112"warning: no rule to process file '$(PROJECT_DIR)/Character/Jamfile' of type sourcecode.jam for architecture i386326912078#18446744073709551615#0#0(1@0"0(22@110"warning: no rule to process file '$(PROJECT_DIR)/Library/Jamfile' of type sourcecode.jam for architecture i386326912078#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/BrowseMode.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/BrowseMode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912079.597355
+e326912085.090073
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/BrowseMode.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/BrowseMode.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/BrowseMode.cpp326912079#326912085#0(0"0(0#0#71"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/BrowseMode.cpp8619357440#1415"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/BrowseMode.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/BrowseMode.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Cache.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Cache.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912086.045804
+e326912086.450923
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Cache.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Cache.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Cache.cpp326912086#326912086#0(0"0(0#0#67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Cache.cpp8618369408#1406"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Cache.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Cache.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Character.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Character.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912089.936300
+e326912090.519664
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Character.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Character.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Character.cpp326912089#326912090#0(0"0(0#0#72"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Character.cpp8604478144#1415"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Character.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Character.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Cloth.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Cloth.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912090.051080
+e326912090.732149
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Cloth.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Cloth.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Cloth.cpp326912090#326912090#0(0"0(0#0#68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Cloth.cpp8604334208#1407"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Cloth.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Cloth.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Den3.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912098.116287
+e326912098.577171
+r0
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Den3.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp: In member function 'void Den3::test1()':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp:150: warning: unused variable 'max_d'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp: In function 'float* the(float*, int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp:177: error: 'numbers' was not declared in this scope
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp:181: error: 'numbers' was not declared in this scope
+lSLF07#2@75"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp326912098#326912098#0(566"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp: In member function 'void Den3::test1()':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp:150: warning: unused variable 'max_d'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp: In function 'float* the(float*, int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp:177: error: 'numbers' was not declared in this scope/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp:181: error: 'numbers' was not declared in this scope3(22@23"Unused variable 'max_d'326912098#110#106#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp326912077#150#0#150#0#19"unused variable '*'0(4@40"'numbers' was not declared in this scope326912098#324#121#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp326912077#177#0#177#0#34"'*' was not declared in this scope0(4@40"'numbers' was not declared in this scope326912098#445#121#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp326912077#181#0#181#0#34"'*' was not declared in this scope0(0#0#67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp8601422848#1405"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Den3.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Den3.o1#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Density.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Density.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912097.487366
+e326912098.047007
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Density.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Density.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Density.cpp326912097#326912098#0(0"0(0#0#70"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Density.cpp8620432672#1411"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Density.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Density.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Draw.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Draw.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912090.732240
+e326912091.403028
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Draw.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Draw.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Draw.cpp326912090#326912091#0(0"0(0#0#67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Draw.cpp8620286784#1405"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Draw.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Draw.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Flo3.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Flo3.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912098.569458
+e326912099.290353
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Flo3.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Flo3.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Flo3.cpp326912098#326912099#0(0"0(0#0#67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Flo3.cpp8620123040#1405"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Flo3.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Flo3.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Fluidflow.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Fluidflow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912098.047173
+e326912098.569377
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Fluidflow.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Fluidflow.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Fluidflow.cpp326912098#326912098#0(0"0(0#0#72"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Fluidflow.cpp8604278784#1415"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Fluidflow.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Fluidflow.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Font.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912086.451012
+e326912086.943555
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Font.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp: In constructor 'Graphics::CachedFont::CachedFont(TexFont*)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp:17: warning: deprecated conversion from string constant to 'char*'
+lSLF07#2@74"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp326912086#326912086#0(263"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp: In constructor 'Graphics::CachedFont::CachedFont(TexFont*)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp:17: warning: deprecated conversion from string constant to 'char*'1(22@53"Deprecated conversion from string constant to 'char*'326912086#129#134#0(6@66"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp185520700#17#0#17#0#49"deprecated conversion from string constant to '*'0(0#0#66"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp8620054592#1404"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Font.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Font.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Force.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Force.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912091.032510
+e326912091.494812
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Force.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Force.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Force.cpp326912091#326912091#0(0"0(0#0#68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Force.cpp8606020064#1407"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Force.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Force.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/FrameDumper.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/FrameDumper.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912086.943694
+e326912087.431231
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/FrameDumper.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/FrameDumper.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/FrameDumper.cpp326912086#326912087#0(0"0(0#0#73"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/FrameDumper.cpp8614997024#1418"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/FrameDumper.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/FrameDumper.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/GLExtensions.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLExtensions.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912087.431324
+e326912089.224101
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/GLExtensions.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLExtensions.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLExtensions.cpp326912087#326912089#0(0"0(0#0#74"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLExtensions.cpp8606170784#1420"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLExtensions.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/GLExtensions.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/GLSLShader.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLSLShader.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912088.714801
+e326912089.545630
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/GLSLShader.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLSLShader.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLSLShader.cpp326912088#326912089#0(0"0(0#0#72"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLSLShader.cpp8618587680#1416"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/GLSLShader.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/GLSLShader.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Graphics.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Graphics.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912089.224186
+e326912089.723786
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Graphics.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Graphics.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Graphics.cpp326912089#326912089#0(0"0(0#0#70"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Graphics.cpp8600615584#1412"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/Graphics.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Graphics.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Library.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912093.625935
+e326912095.277897
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Library.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'
+lSLF07#2@76"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp326912093#326912095#0(816"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp:43: warning: deprecated conversion from string constant to 'char*'6(22@53"Deprecated conversion from string constant to 'char*'326912094#0#136#0(6@68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp214509775#43#0#43#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#136#136#0(6@68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp214509775#43#0#43#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#272#136#0(6@68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp214509775#43#0#43#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#408#136#0(6@68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp214509775#43#0#43#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#544#136#0(6@68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp214509775#43#0#43#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#680#136#0(6@68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp214509775#43#0#43#0#49"deprecated conversion from string constant to '*'0(0#0#68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp8618514368#1409"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Library.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Library.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Mode.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/Mode.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912085.774158
+e326912086.045698
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Mode.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/Mode.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/Mode.cpp326912085#326912086#0(0"0(0#0#65"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/Mode.cpp8620105888#1403"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/Mode.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Mode.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Particle.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Particle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912091.403111
+e326912091.989200
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Particle.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Particle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Particle.cpp326912091#326912091#0(0"0(0#0#71"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Particle.cpp8604407648#1413"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Particle.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Particle.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/ReadSkeleton.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/ReadSkeleton.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912095.277978
+e326912097.487282
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/ReadSkeleton.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/ReadSkeleton.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/ReadSkeleton.cpp326912095#326912097#0(0"0(0#0#73"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/ReadSkeleton.cpp8619432480#1419"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/ReadSkeleton.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/ReadSkeleton.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Reader.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Reader.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912094.779687
+e326912095.469842
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Reader.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Reader.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Reader.cpp326912094#326912095#0(0"0(0#0#67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Reader.cpp8604563360#1407"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Reader.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Reader.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SDLMain.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s326912079.596563
+e326912088.714686
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SDLMain.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/SDLMain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/SDLMain.m326912079#326912088#0(0"0(0#0#58"/Users/getarobo/Documents/work/15464/hw3/3_cloth/SDLMain.m8620178336#1379"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/SDLMain.m -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SDLMain.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SVGDraw.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SVGDraw.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912093.358101
+e326912094.239380
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SVGDraw.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SVGDraw.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SVGDraw.cpp326912093#326912094#0(0"0(0#0#70"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SVGDraw.cpp8604522272#1411"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SVGDraw.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SVGDraw.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/ShadowStencil.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/ShadowStencil.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912089.545717
+e326912090.050988
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/ShadowStencil.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/ShadowStencil.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/ShadowStencil.cpp326912089#326912090#0(0"0(0#0#75"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/ShadowStencil.cpp8618565664#1422"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/ShadowStencil.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/ShadowStencil.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Skeleton.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Skeleton.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912095.469935
+e326912096.429426
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Skeleton.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Skeleton.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Skeleton.cpp326912095#326912096#0(0"0(0#0#69"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Skeleton.cpp8620132672#1411"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Skeleton.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Skeleton.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Skin.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Skin.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912091.989285
+e326912093.358026
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Skin.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Skin.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Skin.cpp326912091#326912093#0(0"0(0#0#67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Skin.cpp8615028384#1405"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Skin.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Skin.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SpringForce.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SpringForce.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912093.104890
+e326912093.625851
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SpringForce.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SpringForce.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SpringForce.cpp326912093#326912093#0(0"0(0#0#74"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SpringForce.cpp8601179136#1419"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/SpringForce.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/SpringForce.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Test.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Test.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912096.498556
+e326912096.991329
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Test.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Test.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Test.cpp326912096#326912096#0(0"0(0#0#65"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Test.cpp8604487904#1403"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Test.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Test.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Velo3.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velo3.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912098.577251
+e326912099.262916
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Velo3.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velo3.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velo3.cpp326912098#326912099#0(0"0(0#0#68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velo3.cpp8619037408#1407"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velo3.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Velo3.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Velocity.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velocity.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912097.641023
+e326912098.116196
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Velocity.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velocity.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velocity.cpp326912097#326912098#0(0"0(0#0#71"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velocity.cpp8619476256#1413"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/Velocity.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Velocity.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Vfile.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Vfile.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912096.991420
+e326912097.640935
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Vfile.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Vfile.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Vfile.cpp326912096#326912097#0(0"0(0#0#66"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Vfile.cpp8618365248#1405"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/Vfile.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/Vfile.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/browser.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/browser.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912085.090242
+e326912085.774069
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/browser.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/browser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/browser.cpp326912085#326912085#0(0"0(0#0#68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/browser.cpp8617837536#1409"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Browser/browser.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/browser.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/control_utils.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/control_utils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912090.519822
+e326912091.032422
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/control_utils.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/control_utils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/control_utils.cpp326912090#326912091#0(0"0(0#0#76"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/control_utils.cpp8618603360#1423"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/control_utils.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/control_utils.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/matrix.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/matrix.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912094.239528
+e326912094.627663
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/matrix.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/matrix.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/matrix.cpp326912094#326912094#0(0"0(0#0#67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/matrix.cpp8618469920#1407"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/matrix.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/matrix.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/nrutil.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912094.627747
+e326912094.707498
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/nrutil.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double* vector(long int, long int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:29: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'int* ivector(long int, long int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:39: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'unsigned char* cvector(long int, long int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:49: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'long unsigned int* lvector(long int, long int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:59: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double* dvector(long int, long int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:69: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double** matrix(long int, long int, long int, long int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:81: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:87: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double** dmatrix(long int, long int, long int, long int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:105: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:111: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'int** imatrix(long int, long int, long int, long int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:129: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:136: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double** submatrix(double**, long int, long int, long int, long int, long int, long int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:155: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double** convert_matrix(double*, long int, long int, long int, long int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:177: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double*** f3tensor(long int, long int, long int, long int, long int, long int)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:196: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:202: warning: deprecated conversion from string constant to 'char*'
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:208: warning: deprecated conversion from string constant to 'char*'
+lSLF07#2@75"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp326912094#326912094#0(3695"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double* vector(long int, long int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:29: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'int* ivector(long int, long int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:39: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'unsigned char* cvector(long int, long int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:49: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'long unsigned int* lvector(long int, long int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:59: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double* dvector(long int, long int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:69: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double** matrix(long int, long int, long int, long int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:81: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:87: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double** dmatrix(long int, long int, long int, long int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:105: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:111: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'int** imatrix(long int, long int, long int, long int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:129: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:136: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double** submatrix(double**, long int, long int, long int, long int, long int, long int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:155: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double** convert_matrix(double*, long int, long int, long int, long int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:177: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp: In function 'double*** f3tensor(long int, long int, long int, long int, long int, long int)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:196: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:202: warning: deprecated conversion from string constant to 'char*'/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp:208: warning: deprecated conversion from string constant to 'char*'16(22@53"Deprecated conversion from string constant to 'char*'326912094#119#135#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#29#0#29#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#371#135#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#39#0#39#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#633#135#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#49#0#49#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#899#135#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#59#0#59#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#1154#135#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#69#0#69#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#1429#135#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#81#0#81#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#1564#135#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#87#0#87#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#1840#136#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#105#0#105#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#1976#136#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#111#0#111#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#2250#136#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#129#0#129#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#2386#136#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#136#0#136#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#2695#136#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#155#0#155#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#2988#136#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#177#0#177#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#3287#136#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#196#0#196#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#3423#136#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#202#0#202#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'326912094#3559#136#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp192042818#208#0#208#0#49"deprecated conversion from string constant to '*'0(0#0#67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp8619629952#1407"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/nrutil.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/nrutil.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/pose_utils.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/pose_utils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912091.494904
+e326912092.153691
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/pose_utils.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/pose_utils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/pose_utils.cpp326912091#326912092#0(0"0(0#0#73"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/pose_utils.cpp8604041888#1417"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/pose_utils.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/pose_utils.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/pythag.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/pythag.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912094.707723
+e326912094.779600
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/pythag.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/pythag.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/pythag.cpp326912094#326912094#0(0"0(0#0#67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/pythag.cpp8606171232#1407"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/pythag.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/pythag.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/skin_utils.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/skin_utils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912092.153835
+e326912093.104807
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/skin_utils.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/skin_utils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/skin_utils.cpp326912092#326912093#0(0"0(0#0#73"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/skin_utils.cpp8604379360#1417"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Character/skin_utils.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/skin_utils.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/svdcmp.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s326912096.429569
+e326912096.498472
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/svdcmp.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp: In function 'void svdcmp(double**, int, int, double*, double**)':
+o/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp:132: warning: deprecated conversion from string constant to 'char*'
+lSLF07#2@75"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp326912096#326912096#0(271"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp: In function 'void svdcmp(double**, int, int, double*, double**)':/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp:132: warning: deprecated conversion from string constant to 'char*'1(22@53"Deprecated conversion from string constant to 'char*'326912096#135#136#0(6@67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp274418611#132#0#132#0#49"deprecated conversion from string constant to '*'0(0#0#67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp8618287296#1407"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/svdcmp.cpp -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/svdcmp.o0#
+
+CCompileC build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/texfont.o /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/texfont.c normal i386 c com.apple.compilers.gcc.4_2
+s326912089.723873
+e326912089.936210
+r1
+xCompileC
+xbuild/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/texfont.o
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/texfont.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/texfont.c326912089#326912089#0(0"0(0#0#67"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/texfont.c8602574784#1378"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/3_cloth.hmap -F/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug -F/Users/getarobo/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/include -I. -IBrowser -Ibuild -ICharacter -Idata -Idist -IGL -IGraphics -Iinclude -ILibrary -IVector -Ibuild/3_cloth.build -Idist/data -Idist/shaders -IGraphics/fonts -Iinclude/GL -I/Users/getarobo/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources/i386 -I/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/DerivedSources -c /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/texfont.c -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/3_cloth.build/Debug/3_cloth.build/Objects-normal/i386/texfont.o0#
+
+CCopyStringsFile /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s326912078.751272
+e326912079.406129
+r1
+xCopyStringsFile
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+oEnglish.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings326912078#326912079#0(133"English.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#80"/Users/getarobo/Documents/work/15464/hw3/3_cloth/English.lproj/InfoPlist.strings8620029568#385"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/08.asf data/08.asf
+s326912079.406859
+e326912079.512199
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/08.asf
+xdata/08.asf
+lSLF07#2@16"Copy data/08.asf326912079#326912079#0(0"0(0#0#60"/Users/getarobo/Documents/work/15464/hw3/3_cloth/data/08.asf8604378816#371"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/data/08.asf /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/08.asf dist/data/08.asf
+s326912079.406206
+e326912079.478704
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/08.asf
+xdist/data/08.asf
+lSLF07#2@21"Copy dist/data/08.asf326912079#326912079#0(0"0(0#0#65"/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/data/08.asf15762804857307252#376"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/data/08.asf /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/08_04.amc data/08_04.amc
+s326912079.408188
+e326912079.596481
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/08_04.amc
+xdata/08_04.amc
+lSLF07#2@19"Copy data/08_04.amc326912079#326912079#0(0"0(0#0#63"/Users/getarobo/Documents/work/15464/hw3/3_cloth/data/08_04.amc8604324800#374"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/data/08_04.amc /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/08_04.amc dist/data/08_04.amc
+s326912079.407422
+e326912079.572801
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/08_04.amc
+xdist/data/08_04.amc
+lSLF07#2@24"Copy dist/data/08_04.amc326912079#326912079#0(0"0(0#0#68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/data/08_04.amc8604331104#379"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/data/08_04.amc /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/amc_to_bmc.pl Library/amc_to_bmc.pl
+s326912079.484920
+e326912079.541805
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/amc_to_bmc.pl
+xLibrary/amc_to_bmc.pl
+lSLF07#2@26"Copy Library/amc_to_bmc.pl326912079#326912079#0(0"0(0#0#70"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/amc_to_bmc.pl8618898304#381"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/Library/amc_to_bmc.pl /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/color_vert.glsl dist/shaders/color_vert.glsl
+s326912079.410421
+e326912079.473853
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/color_vert.glsl
+xdist/shaders/color_vert.glsl
+lSLF07#2@33"Copy dist/shaders/color_vert.glsl326912079#326912079#0(0"0(0#0#77"/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/color_vert.glsl8604116576#388"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/color_vert.glsl /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/extrude_vert.glsl dist/shaders/extrude_vert.glsl
+s326912079.410938
+e326912079.473970
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/extrude_vert.glsl
+xdist/shaders/extrude_vert.glsl
+lSLF07#2@35"Copy dist/shaders/extrude_vert.glsl326912079#326912079#0(0"0(0#0#79"/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/extrude_vert.glsl8604060032#390"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/extrude_vert.glsl /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/gen_extension_loader.pl Graphics/gen_extension_loader.pl
+s326912079.474582
+e326912079.498607
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/gen_extension_loader.pl
+xGraphics/gen_extension_loader.pl
+lSLF07#2@37"Copy Graphics/gen_extension_loader.pl326912079#326912079#0(0"0(0#0#81"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/gen_extension_loader.pl8620268480#392"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/gen_extension_loader.pl /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/gentium.txf Graphics/fonts/gentium.txf
+s326912079.409476
+e326912079.498334
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/gentium.txf
+xGraphics/fonts/gentium.txf
+lSLF07#2@31"Copy Graphics/fonts/gentium.txf326912079#326912079#0(0"0(0#0#75"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/fonts/gentium.txf8604237792#386"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/fonts/gentium.txf /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/gentium.txf dist/gentium.txf
+s326912079.408946
+e326912079.571738
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/gentium.txf
+xdist/gentium.txf
+lSLF07#2@21"Copy dist/gentium.txf326912079#326912079#0(0"0(0#0#65"/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/gentium.txf8604297632#376"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/gentium.txf /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/noextrude_vert.glsl dist/shaders/noextrude_vert.glsl
+s326912079.411416
+e326912079.484843
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/noextrude_vert.glsl
+xdist/shaders/noextrude_vert.glsl
+lSLF07#2@37"Copy dist/shaders/noextrude_vert.glsl326912079#326912079#0(0"0(0#0#81"/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/noextrude_vert.glsl8603986816#392"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/noextrude_vert.glsl /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/ppm2avi.pl Graphics/ppm2avi.pl
+s326912079.478776
+e326912079.498222
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/ppm2avi.pl
+xGraphics/ppm2avi.pl
+lSLF07#2@24"Copy Graphics/ppm2avi.pl326912079#326912079#0(0"0(0#0#68"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/ppm2avi.pl8620172608#379"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/Graphics/ppm2avi.pl /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/skin_extrude_vert.glsl dist/shaders/skin_extrude_vert.glsl
+s326912079.411848
+e326912079.485968
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/skin_extrude_vert.glsl
+xdist/shaders/skin_extrude_vert.glsl
+lSLF07#2@40"Copy dist/shaders/skin_extrude_vert.glsl326912079#326912079#0(0"0(0#0#84"/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/skin_extrude_vert.glsl8603905504#395"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/skin_extrude_vert.glsl /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CCpResource build/Debug/3_cloth.app/Contents/Resources/skin_vert.glsl dist/shaders/skin_vert.glsl
+s326912079.474034
+e326912079.485868
+r1
+xCpResource
+xbuild/Debug/3_cloth.app/Contents/Resources/skin_vert.glsl
+xdist/shaders/skin_vert.glsl
+lSLF07#2@32"Copy dist/shaders/skin_vert.glsl326912079#326912079#0(0"0(0#0#76"/Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/skin_vert.glsl8620719040#387"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/getarobo/Documents/work/15464/hw3/3_cloth/dist/shaders/skin_vert.glsl /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Resources0#
+
+CLd /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/MacOS/3_cloth normal i386
+r0
+
+CPBXCp build/Debug/3_cloth.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
+s326912099.290438
+e326912099.446160
+r1
+xPBXCp
+xbuild/Debug/3_cloth.app/Contents/Frameworks/SDL.framework
+x/Library/Frameworks/SDL.framework
+lSLF07#2@38"Copy /Library/Frameworks/SDL.framework326912099#326912099#0(0"0(0#0#33"/Library/Frameworks/SDL.framework8618228576#345"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Library/Frameworks/SDL.framework /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Info.plist Info.plist
+s326912078.620078
+e326912078.726702
+r1
+xProcessInfoPlistFile
+x/Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist326912078#326912078#0(0"0(0#0#59"/Users/getarobo/Documents/work/15464/hw3/3_cloth/Info.plist13229753409208424#332"    cd /Users/getarobo/Documents/work/15464/hw3/3_cloth    builtin-infoPlistUtility Info.plist -genpkginfo /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app/Contents/Info.plist0#
+
+CTouch /Users/getarobo/Documents/work/15464/hw3/3_cloth/build/Debug/3_cloth.app
+r0
+

@@ -1,0 +1,1 @@
+$	Jamfile	/^MainFromObjects dist\/browser : $(BROWSER_OBJECTS) /
